@@ -1,0 +1,55 @@
+
+
+{
+  
+  "deliveringTo": {
+    "title": "Home",
+    "addressLine1": "Singhal General store, Varun Path, Varun Nagar",
+    "addressLine2": "JAIPUR, RAJASTHAN, 302020, India",
+    "eta": "Expected delivery date : 25 Dec ’25 - 27 Dec ’25"
+  },
+  "items": [
+    {
+      "name": "Dolo 500 Tablet",
+      "subtitle": "Pain killer",
+      "qtyText": "+4 More items",
+      "imageUrl": ""
+    },
+    {
+      "name": "Cetirizine 10mg",
+      "subtitle": "Allergy relief",
+      "imageUrl": "/images/cetirizine.png"
+    },
+    {
+      "name": "Vitamin C 1000mg",
+      "subtitle": "Immunity support",
+      "imageUrl": "/images/vitamin-c.png"
+    },
+    {
+      "name": "Digital Thermometer",
+      "subtitle": "Fast reading",
+      "imageUrl": "/images/thermometer.png"
+    },
+    {
+      "name": "Hand Sanitizer",
+      "subtitle": "Kills 99.9% germs",
+      "imageUrl": "/images/sanitizer.png"
+    }
+  ],
+  "pricing": [
+    { "label": "Item total (MRP)", "value": "₹4,274.43" },
+    { "label": "Handling charges", "value": "₹45" },
+    { "label": "Total Discount:", "value": "-₹50", "tone": "good" },
+    { "label": "Coupon Code", "value": "-₹70", "tone": "good" },
+    { "label": "Medcart Credits", "value": "-₹70", "tone": "good" },
+    { "label": "Shipping fee", "value": "₹12" }
+  ],
+  "amountPaid": "₹1,999.00*",
+  "savedText": "🎉 You saved ₹577.00 on this order!",
+  "payment": {
+    "methodTitle": "Paid via UPI",
+    "fromLine": "From : Slice cc (XX9395)",
+    "txnLine": "Txn ID : 123456789012345",
+    "dateLine": "Date : 29 Dec ’25 8:10 PM"
+  }
+}
