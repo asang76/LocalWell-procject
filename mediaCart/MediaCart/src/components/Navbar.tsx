@@ -5,8 +5,7 @@ import { SearchBar } from "./AppWidgets/SearchBar";
 import LoginIcon from "../assets/LoginIcon.png";
 import Carticon from "../assets/Carticon.png";
 import PlusIcon from "../assets/PlusIcon.png";
-import dots from "../assets/dots.png"
-
+import dots from "../assets/dots.png";
 
 export default function Navbar() {
   return (
@@ -33,40 +32,27 @@ export default function Navbar() {
           <SearchBar />
         </div>
 
-       
         <nav className="flex items-center justify-between gap-2">
-         
-          <NavLink
-            to="/login"
-           
-             
-          >
-             <img src={LoginIcon} className="w-6" />
-              <span className="hidden sm:inline text-black">Login</span>
+          <NavLink to="/login">
+            <img src={LoginIcon} className="w-6" />
+            <span className="hidden sm:inline text-black">Login</span>
           </NavLink>
 
-          <NavLink
-            to="/cart"
-           
-            aria-label="Cart"
-          >
-            
+          <NavLink to="/cart" aria-label="Cart">
             <img src={Carticon} className="w-6" />
             <span className="hidden sm:inline text-black">Cart</span>
           </NavLink>
-         
-         
-          <NavLink
-            to="/seller"
-           
-          >
-             <img src={PlusIcon} className="w-8 " />
-            <span className="hidden sm:inline px-2 text-black"> Become a Seller</span>
+
+          <NavLink to="/seller">
+            <img src={PlusIcon} className="w-8 " />
+            <span className="hidden sm:inline px-2 text-black">
+              {" "}
+              Become a Seller
+            </span>
           </NavLink>
-            <NavLink to={"/"}>
-                <img src={dots} className="w-4"/>
-            </NavLink>
-         
+          <NavLink to={"/"}>
+            <img src={dots} className="w-4" />
+          </NavLink>
         </nav>
       </div>
     </header>
