@@ -7,24 +7,23 @@ export function DeliverySelector() {
 
       <div className="relative">
         <select
-          defaultValue="nagpur"
+          defaultValue="bengaluru"
           aria-label="Select location"
           className="
             h-9 w-[170px]
             rounded-lg 
           bg-white
             px-3 
-            text-lg
+            text-sm
             outline-none
-           
             appearance-none
           "
         >
+          <option value="delhi" style={optStyle}>Bengaluru 442401</option>
           <option value="nagpur" style={optStyle}>Nagpur 442401</option>
           <option value="hyderabad" style={optStyle}>Hyderabad 442401</option>
           <option value="mumbai" style={optStyle}>Mumbai 442401</option>
           <option value="pune" style={optStyle}>Pune 442401</option>
-          <option value="delhi" style={optStyle}>Delhi 442401</option>
         </select>
 
         {/* Custom arrow */}

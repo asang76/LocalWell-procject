@@ -4,7 +4,6 @@ export function SearchBar() {
   return (
     <div className="flex flex-1 items-center gap-2">
       <div className="relative w-full">
-       
         <input
           type="search"
           placeholder="Search for Medicines or Health Products"

@@ -3,7 +3,7 @@ import logo from "../assets/Logo.png";
 import { DeliverySelector } from "./AppWidgets/DeliverySelector";
 import { SearchBar } from "./AppWidgets/SearchBar";
 import LoginIcon from "../assets/LoginIcon.png";
-import Carticon from "../assets/CartIcon.png";
+import Cart from "../assets/Cart.png";
 import PlusIcon from "../assets/PlusIcon.png";
 import dots from "../assets/dots.png";
 
@@ -32,23 +32,29 @@ export default function Navbar() {
           <SearchBar />
         </div>
 
-        <nav className="flex items-center justify-between gap-2">
+        <nav className="flex items-center justify-between gap-12 pl-12">
           <NavLink to="/login">
-            <img src={LoginIcon} className="w-6" />
+            <div className="flex flex-row items-center">
+            <img src={LoginIcon} className="w-6 " />
             <span className="hidden sm:inline text-black">Login</span>
+            </div>
           </NavLink>
 
           <NavLink to="/cart" aria-label="Cart">
-            <img src={Carticon} className="w-6" />
+          <div className="flex flex-row items-center">
+            <img src={Cart} className="w-6 " />
             <span className="hidden sm:inline text-black">Cart</span>
+          </div>
           </NavLink>
 
           <NavLink to="/seller">
+            <div className="flex flex-row items-center">
             <img src={PlusIcon} className="w-8 " />
-            <span className="hidden sm:inline px-2 text-black">
-              
+            <p className="hidden sm:inline px-2 text-black">
               Become a Seller
-            </span>
+            </p>
+
+            </div>
           </NavLink>
           <NavLink to={"/"}>
             <img src={dots} className="w-4" />
