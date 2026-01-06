@@ -3,7 +3,7 @@ import logo from "../assets/Logo.png";
 import { DeliverySelector } from "./AppWidgets/DeliverySelector";
 import { SearchBar } from "./AppWidgets/SearchBar";
 import LoginIcon from "../assets/LoginIcon.png";
-import Carticon from "../assets/Carticon.png";
+import Carticon from "../assets/CartIcon.png";
 import PlusIcon from "../assets/PlusIcon.png";
 import dots from "../assets/dots.png";
 
@@ -46,7 +46,7 @@ export default function Navbar() {
           <NavLink to="/seller">
             <img src={PlusIcon} className="w-8 " />
             <span className="hidden sm:inline px-2 text-black">
-              {" "}
+              
               Become a Seller
             </span>
           </NavLink>
